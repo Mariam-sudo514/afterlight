@@ -1,0 +1,32 @@
+.login-page {
+  max-width: 640px;
+}
+.login-top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 24px;
+}
+.login-form {
+  margin-top: 32px;
+}
+.login-form .read-button {
+  margin: 4px 0 0;
+}
+.login-page > .article-link {
+  margin-top: 32px;
+}
+@media (max-width: 640px) {
+  .login-page {
+    margin-top: 40px;
+  }
+  .login-top .footer-brand {
+    font-size: 30px;
+  }
+  .login-top {
+    gap: 16px;
+  }
+  .login-page h1 {
+    font-size: 30px;
+  }
+}

@@ -1,0 +1,12 @@
+.env*
+work/
+outputs/
+.sites-runtime/
+.next/
+.vinext/
+node_modules/
+coverage/
+test-results/
+playwright-report/
+supabase/.temp/
+supabase/.branches/
